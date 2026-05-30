@@ -1,0 +1,11 @@
+# core (required)
+mutagen
+
+# audio feature analysis (recommended)
+librosa
+numpy
+
+# ML classifier — Audio Spectrogram Transformer via HuggingFace (optional, ~330MB download on first run)
+# tensorflow is NOT used — no Python 3.14 support as of mid-2025
+torch
+transformers

@@ -1,0 +1,15 @@
+{
+    "use_path_context": true,
+    "use_metadata": true,
+    "use_audio_features": true,
+    "use_ml_classifier": true,
+    "ml_model": "yamnet",
+    "min_confidence_threshold": 0.15,
+    "signal_weights": {
+        "path": 2.5,
+        "metadata": 2.0,
+        "filename": 1.0,
+        "audio": 1.5,
+        "ml": 2.0
+    }
+}
